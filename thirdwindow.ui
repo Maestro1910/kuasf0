@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ThirdWindow</class>
+ <widget class="QDialog" name="ThirdWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>386</width>
+    <height>273</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0" colspan="2">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="2" column="0">
+      <widget class="QPushButton" name="deleteButton">
+       <property name="text">
+        <string>Удалить</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="saveButton">
+       <property name="text">
+        <string>Сохранить</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QTableWidget" name="tableWidget2">
+       <property name="styleSheet">
+        <string notr="true">
+border-color: rgb(0, 0, 0);
+gridline-color: rgb(0, 0, 0);</string>
+       </property>
+       <row>
+        <property name="text">
+         <string>за 3 месяц</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>за 6 месяц</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>за 9 месяц</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>за 12 месяц</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>Дата</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Рост</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="graphButton">
+       <property name="text">
+        <string>Построить график</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
